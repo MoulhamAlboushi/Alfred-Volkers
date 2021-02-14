@@ -1,0 +1,50 @@
+section img{
+  display: block;
+  margin: 10px auto;
+  size: 80%;
+}
+.contenerTab ul{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row: row;
+  margin: auto;
+  grid-gap: 10px;
+  
+}
+
+.contenerTab li{
+  list-style: none;
+  background-color: burlywood;
+  padding-left: 20px;
+  
+}
+.contener{
+  width: 80%;
+  margin:10px auto;
+  color: rgb(12, 19, 66);
+
+}
+.contenerText{
+  font-family: Garamond;
+  /* background-color: var(--light-darkColor); */
+}
+.contener h3{
+  width: 230px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.contener p{
+  font-size: 20px;
+  text-align: justify;
+  /* background-color: var(--light-darkColor); */
+  margin: 5px;
+  padding: 15px;
+  
+}
+.contener img{
+  width: 100px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  
+}

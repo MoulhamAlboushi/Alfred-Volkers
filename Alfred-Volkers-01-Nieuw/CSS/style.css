@@ -1,0 +1,373 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  color: rgb(12, 19, 66);
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+  --light-color: white;
+  --light-darkColor:rgba(169, 169, 169, 0.537);
+  --primary-font-fam:Arial, Helvetica, sans-serif;
+}
+/* ///////////////////Start navbar//////////////////// */
+.header{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 98%;
+  position: fixed;
+  top: 0;
+  /* max-width: 1100px; */
+}
+.logoIMG{
+  width: 150px;
+  padding-left: 2%;
+}
+#navbar{
+  background-color: var(--light-color);
+  width: 98%;
+  height: 60px;
+  /* position: absolute; */
+  /* z-index: 15; */
+
+  border: 1px black solid;
+}
+#navbar ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 auto;
+  margin-left: -10%;
+}
+#navbar ul li {
+  width: 150px;
+  list-style: none;
+  opacity: .8;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align: center
+}
+#navbar ul li a{
+  text-decoration: none;
+  color: black;
+}
+#navbar ul li a:hover {
+  background-color: var(--light-darkColor);
+  padding: 10px;
+  border-radius: 15px;
+}
+#navbar ul li ul{
+  display: none;
+}
+.dropNavbar li{
+  background-color: var(--light-color);
+  border-radius: 20px;
+  padding: 10px 0;
+}
+#navbar ul li:hover ul{
+  display: block;
+  margin: 0%;
+  margin-top: 17px;
+  padding: 10px;
+}
+/*//////////////////////// end navbar ////////////////////////*/
+
+.HomeImg img{
+  display: block;
+  width: 55%;
+  /* border: black 1px solid; */
+  margin: 0 auto;
+  margin-top: 59px;
+}
+.section{
+  width: 80%;
+  color: rgb(12, 19, 66);
+  font-family: Garamond;
+  font-size: 25px;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 20px auto;
+  padding: 2% 2.5%;
+}
+.section img{
+  display: block;
+  width: 100%;
+  margin: auto;
+  margin-left: 0px;
+  /* border: black 1px solid; */
+}
+/* actueel pagena */
+.sectionActueel img{
+width: 100px;
+}
+.IVjanuari2021{
+  margin-top: 20px;
+}
+
+.zesteenDecember2020 img{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+
+}
+.NAH9december2020 img{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+/* section overMij:class= logos img*/
+.logos img{
+  /* border: 1px red solid; */
+  width: 120px;
+  display: inline;
+}
+.voorParticulieren{
+  margin-top: 30px;
+}
+.VergoedingH4{
+padding-top: 100px;
+}
+.contenerTab ul{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row: row;
+  margin: auto;
+  grid-gap: 10px;
+}
+ 
+.contenerTab li{
+  list-style: none;
+  background-color: burlywood;
+  padding-left: 20px;
+}
+
+.logoIMGfooter{
+  height: 200px ;
+  margin: 20px;
+  padding-right: 35%;
+}
+.zzplogo{
+  height:120px;
+  margin: 10px;
+padding-bottom: 20px;
+}
+
+.footer1{
+  font-family: Garamond;
+  width: 75%;
+  margin: 20px auto;
+  padding: 2% 2.5%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  line-height: 150%;
+}
+.footer1 ul li{
+  list-style: none;
+}
+/* Therapie */
+
+.ReAttachArt{
+  margin-top: 15px;
+}
+.reattachList ul{
+  list-style: none;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: row;
+  grid-gap: 3px; 
+}
+.reattachList li{
+  font-size: 20px;
+  background-color: burlywood;
+  padding: 10px;
+  margin: 5px;
+}
+.ReAttachArt img{
+  width: 200px;
+}
+.alsPraten img{
+  margin: 10px;
+  width: 270px;
+  /* border: 5px solid black; */
+}
+.artP{
+  padding-top: 10px;
+  margin: 10px;
+}
+.wara-logo{
+  width: 90px;
+}
+p{
+  size: 25px;
+  font-size: 20px;
+  padding: 10px;
+}
+.psychosociale{
+  text-align: justify;
+  width: 95%; 
+}
+.logovivnederland img{
+width: 108px;
+margin-top: 10px;
+/* margin-right: 42%; */
+}
+.integraleGezondheidzorg{
+  margin-top:40px;
+  padding: 34.5px;
+}
+.scoringsinstrumentPhoto{
+  margin: 0;
+  width: 50%;
+
+}
+/* uwPrivacy */
+.uwPrivacyLi{
+  margin-left:5rem;
+  font-size: 20px;
+}
+/* Kwaliteit */
+.kwaliteitLI li{
+  list-style: none;
+
+}
+.kwaliteitLI img{
+  display: inline;
+  width: 90px;
+  size: 100%;
+}
+.kwaliteitLI p{
+  display: inline-block;
+}
+.logoSize{
+  display: inline-block;
+  width: 160px;
+  /* background-color: lawngreen; */
+
+}
+.logoSize img{
+  margin: 0 auto;
+}
+.KWskj img{
+  width: 130px;
+}
+.KWvivLogo img{
+  width: 100px;
+}
+.KWverenigOpPrNe img{
+  width: 150px;
+}
+.KWmasterNPL img{
+  width: 90px;
+}
+.KWprovocatiefCoach img{
+  width: 100px;
+}
+.KWLogo-ReAttach-N img{
+  width: 85px;
+}
+.KwKinderenUitDeknlLogo img{
+  width: 85px;
+}
+
+/* pagena: coaching+Thetapie+klachten */
+.PhotoInText{
+  margin: 20px auto;
+  width: 50%;
+}
+
+/* End Therapie style */
+.vraagKracht img{
+  display: block;
+  margin: 5px 0 20px 0;
+  width: 350px;
+}
+.klachtenLogo img{
+  width: 7rem;
+}
+.Demissie{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* overmij */
+.overmijImg{
+  width: 75%;
+  margin: 0 auto; 
+}
+
+.centrumVoorVitaliteit img{
+  width: 150px;
+}
+
+.boeken li{
+margin: 25px;
+}
+.boek img{
+  width: 200px;
+  margin-top: 5px;
+}
+
+/* Tarieven */
+.vergoeding{
+  margin-top: 20px;
+}
+.behandeltarievenEnVergoeding{
+  margin-left: -25px;
+}
+
+.contactPage{
+  width: 90%;
+}
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  /* border: 1px black solid; */
+  margin: 5px;
+  margin-left: 25.5%;
+  margin-top: 50px;
+}
+.contact img{
+  display: block;
+  /* position: absolute; */
+  width: 155px;
+  height: 155px;
+}
+
+.AVcontact{
+  margin: 10px;
+  display: inline-block;
+  font-size: 18px;
+}
+.AVcontact img{
+display: block;
+}
+
+.AVcontact ul{
+  list-style: none;
+}
+.contantCVVlogo img{
+  width: 250px;
+  height: 130px;
+  margin: 7px;
+  margin-top: 15;
+  margin-bottom: 15px;
+}
+.contactVraagen p{
+  margin-top: 20px;
+  padding: 0px;
+}

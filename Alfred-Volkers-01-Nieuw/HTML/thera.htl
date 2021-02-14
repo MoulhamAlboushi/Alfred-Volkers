@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../CSS/style.css">
+  <link rel="stylesheet" href="../../CSS/therapie.css">
+  <title>Therapie2</title>
+</head>
+
+<body>
+  <!-- Start-Navbar -->
+  <header class="header">
+    <img class="logoIMG" src="../../IMG/website-logo1.jpg" alt="website-logo">
+    <nav id="navbar">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../coaching.html">Coaching</a></li>
+        <li class="dropNavbar"><a href="#">Therapie</a>
+          <ul>
+            <li><a href="therapie1.html">Therapie1</a></li>
+            <li><a href="#">Therapie2</a></li>
+          </ul>
+        </li>
+        <Li class="dropNavbar"> <a href="#">De Pratkijk</a>
+          <ul>
+            <li><a href="../DePratkijk/OverMij.html">Over mij</a></li>
+            <li><a href="../DePratkijk/UwPrivacy.html">Uw privacy</a></li>
+            <li><a href="../DePratkijk/Tarieven.html">Tarieven</a></li>
+            <li><a href="../DePratkijk/Klachten.html">Klachten</a></li>
+          </ul>
+        </Li>
+        <li><a href="../Actuaal.html">Actueel</a></li>
+        <li><a href="../Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- End Navbar -->
+  <section class="section">
+    <div class="sectionImage">
+      <img src="../../IMG/Therapie01.jpg" alt="Therapie 21">
+    </div>
+    <div class="psychosociale">
+      <h1>Psychosociale therapie;</h1>
+
+      <h2>"integrale vitaliteit"</h2>
+      <p>
+        <!-- <img src="#" alt="LogoTherapie2"> -->
+        Als psychosociaal therapeut ga ik samen met jou op zoek naar waar je vraag vandaan komt en welke weg helpend
+        voor
+        jou gaat zijn om oplossingen te vinden. De oplossingsgerichte therapie (solution focussed) biedt een goede basis
+        om op zoek te gaan naar eigen competenties en mogelijkheden om de problemen te lijf te gaan en tot oplossingen
+        te
+        komen. In deze therapie onderzoek je ook de belemmerende patronen en dieper liggende blokkades en focus je op
+        hetgeen er al wel goed gaat en wat je wil bereiken. Hierbij sta jij als hulpvrager met jouw specifieke hulpvraag
+        centraal.
+      </p>
+      <img src="../../IMG/therapie2IntegraleVitaliteit.jpg" alt="T2IntegraleLitaliteit">
+      <p> De psychosociale therapie omvat een gevarieerd aanbod van benaderingen die ingezet kunnen worden. Belangrijk is dat
+        je
+        weer nieuwe perspectieven gaat zien en jouw probleemoplossend en zelfgenezend vermogen toeneemt.</p>
+      <p> Hiervoor gebruiken we veel technieken uit de oplossingsgerichte benadering, de NLP (Neuro Linguïstisch
+        Programmeren) en o.a. mindfulness. Dit alles vinden we terug in de uitgangspunten van de positieve
+        gezondheidszorg.
+      </p>
+      <img src="../../IMG/scoringsinstrument-iph.gif" alt="scoringsinstrument">
+    </div>
+    </div>
+    </div>
+    <!-- img link van orginale website -->
+
+  </section>
+
+
+</body>
+
+</html>

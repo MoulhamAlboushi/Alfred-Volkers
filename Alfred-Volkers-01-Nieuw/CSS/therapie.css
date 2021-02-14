@@ -1,0 +1,78 @@
+
+.sectionImage{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.Thrapie2headerImg {
+  width: 100%;
+  margin: 0 auto;
+}
+
+article{
+  width: 80%;
+  margin: 10px auto;
+  padding: 2rem;
+  font-size: 25px;
+  
+}
+.ReAttachArt{
+  margin-top: 15px;
+}
+.reattachList ul{
+  list-style: none;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: row;
+  grid-gap: 3px;
+  
+}
+
+.reattachList li{
+  font-size: 20px;
+  background-color: burlywood;
+  padding: 20px;
+  margin: 5px;
+}
+.ReAttachArt img{
+  width: 200px;
+}
+
+.alsPraten img{
+  margin: 10px;
+  width: 270px;
+  /* border: 5px solid black; */
+}
+.artP{
+  padding-top: 10px;
+  margin: 10px;
+}
+
+p{
+  size: 25px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.psychosociale{
+  text-align: justify;
+  width: 95%;
+  
+}
+
+.Thrapie2headerImg img{
+  display: block;
+  width: 60%;
+  border: black 1px solid;
+  margin: 59px auto 0 auto;
+  
+}
+.psychosociale img{
+  margin: 20px auto;
+  width: 50%;
+}
+
+.logovivnederlan img{
+  width: 150px;
+}
